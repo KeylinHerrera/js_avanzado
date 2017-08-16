@@ -1,0 +1,8 @@
+.testing {
+  display: flex;
+  width: 71.42857%; }
+
+body {
+  background-image: url("../images/img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }

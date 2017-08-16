@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<title>Sphere Gallery</title>
+
+		<style>
+			html, body {
+				height: 100%;
+			}
+
+			body {
+				background-image: url("img/bg.jpg");
+				background-size: cover;
+				background-color:rgba(0, 0, 0, 0.5);
+				margin: 0;
+				font-family: Arial;
+				overflow: hidden;
+			}
+
+			.element .imgGallery {
+				position: absolute;
+				width: 100%;
+				width: 340px;
+				height: 380px;
+				border-radius: 50%;
+			}
+
+		</style>
+
+	</head>
+	<body>
+
+		<div id="container"></div>
+		
+		<!--Scripts-->
+		<script src="js/three.min.js"></script>
+		<script src="js/tween.min.js"></script>
+		<script src="js/controls/TrackballControls.js"></script>
+		<script src="js/renderers/CSS3DRenderer.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

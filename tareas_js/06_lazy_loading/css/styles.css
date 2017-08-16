@@ -1,0 +1,14 @@
+* {
+	margin: 0 auto;
+}
+
+img {
+	display: block;
+	opacity: 1;
+	padding: 30px;
+	transition: opacity 0.3s;
+}
+
+img[data-src] {
+	opacity: 0;
+}
